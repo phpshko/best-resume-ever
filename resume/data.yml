@@ -1,93 +1,156 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Ruslan
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  last: Zinchenko
+about: More than 8 years in IT
 position: Software Developer
 
-birth:
-  year: 1990
-  location: New York
+#birth:
+#  year: 1990
+#  location: New York
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: 12Go Asia
+  position: PHP Developer
+  timeperiod: March 2019 – May 2020
+  list:
+    - • Support online travel agent project
+    - • Development integrations with travel operators through api or crawler
+    - "• Technology: PHP, MySQL, Redis, Git, Docker, Codeception, PhantomJS, NightmareJS, Puppeteer"
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+  website: https://12go.asia
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Genesis
+  position: Full Stack Developer
+  timeperiod: March 2018 – March 2019
+  list:
+    - • Development and support internal ERP system and Employee portal
+    - • Flexible access rights management
+    - • Managing Attendance and Vacations
+    - • Payroll calculation and management
+    - • Functional for financial analysts and managers
+    - • Functional for "Growth and Development" and HR
+    - "• Technology: PHP, JavaScript, Yii/Yii2 framework, MySQL, Redis, Git, Docker, Codeception"
+
+
+- company: Bazalinks
+  position: Full Stack Developer
+  timeperiod: May 2016 – September 2017
+  list:
+    - • Development project for management and mining of the project’s reference mass (Crowd Marketing)
+    - • Functional for the organization of the work of companies and site owners
+    - • Flexible management of permissions for contractors and companies
+    - • Check of site and donor pages rank and indexing in search engines
+    - • Check placement of links and their characteristics
+    - • Management of pricing and payment reports
+    - • Many reports and graphs with complex sorts and filters
+    - "• Technology: Php7, Yii2, Nginx, Mariadb, Sphinx, Git"
+
+- company: Apes At Work
+  position: PHP Developer
+  timeperiod: April 2013 – June 2015
+  list:
+    - • Development and support client internal ERP system
+    - • Time management client/contractor
+    - • Creating and applying worksheet via client/contractor relations
+    - • Manage jobs for each contractor dependent on their skill
+    - • Calculating and exporting any kind of reports
+    - • Flexible pricing
+    - • Full i18n compliance
+    - • Mobile application/server data transfer
+    - • Integration with third party api.
+    - "• Technology: Yii/Yii2 framework, MySQL, PHP, JavaScript, Svn, Git"
+
+- company: Freelance
+  position: PHP Developer
+  timeperiod: Since October 2009
+  list:
+    - • Development of sites and a variety of scripts for automation like scrappers, posters, bots
+    - • More than 60 reviews
+    - "• Technology: Php5/7, Nginx/Apache, Mysql, Yii/Yii2"
+
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Junior Specialist in software development
+  timeperiod: 2009 - 2013
+  description: Poltava Polytechnic College of the National Technical University "Kharkiv Polytechnic Institute"
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
+- name: PHP 5/7
+  level: 100
+
+- name: HTML
+  level: 100
+
+- name: Yii / Yii2
+  level: 100
+
+- name: MySQL
+  level: 100
+
+- name: CSS / SCSS
+  level: 90
+
 - name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+  level: 90
+
+- name: PhantomJS / NightmareJS / Puppeteer
+  level: 90
+
+- name: Codeception / PHPUnit
+  level: 90
+
+#- name: Memcached
+#  level: 90
+
+- name: Redis
+  level: 90
+
+- name: Linux
   level: 80
-- name: ES.Next
-  level: 70
+
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+  level: 80
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Sphinx
+  level: 50
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name: ElasticSearch
+  level: 50
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+knowledge:
+#
+#projects:
+#- name: best-resume-ever
+#  platform: Vue
+#  timeperiod: February 2016
+#  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+#  url: https://github.com/salomonelli/best-resume-ever
+
+#hobbies:
+#- name: Video Games
+#  iconClass: fa fa-gamepad
+#  url: https://example.com
+#
+#- name: Drawing
+#  iconClass: fa fa-pencil
+#  url: https://example.com
+
+#contributions:
+#- name: best-resume-ever
+#  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: zinchenckoruslan@gmail.com
+  phone: +38 095 759 19 26
+  city: Poltava
+  github: phpshko
+  linkedin: ruslan-zinchenko-b338b5139/
+
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

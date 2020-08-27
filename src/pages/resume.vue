@@ -23,7 +23,7 @@ export default Vue.component('resume', {
 }
 .page-wrapper {
   overflow-x: hidden;
-  background: #CCCCCC;
+  /*background: #CCCCCC;*/
   margin: 0;
   padding: 0;
   -webkit-print-color-adjust: exact;
@@ -39,7 +39,7 @@ export default Vue.component('resume', {
   background: white;
   position: relative;
   width: 21cm;
-  height: 29.68cm;
+  /*height: 29.68cm;*/
   display: block;
   page-break-after: auto;
   overflow: hidden;
